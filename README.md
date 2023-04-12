@@ -29,7 +29,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://openjfx.io/"></a></li>
+    <li><a href="https://openjfx.io/">JavaFX</a></li>
   </ul>
 </details>
 
