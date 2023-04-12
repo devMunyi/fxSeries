@@ -9,7 +9,6 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Installations](#installations)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -51,25 +50,19 @@
 
 ### Prerequisites
 
-> In order to run this project you need:
-
-### Setup
-
-> Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  git clone git@github.com:devMunyi/fxSeries.git
-```
---->
-
-### Installations
-> You need the following installed in your system:
+> In order to run this project you need following installations:
     - Java JDK-17
     - Intellij IDE or Eclipse
     - SceneBulder
+
+### Setup
+> To run and view this application, you will first have to clone a local version of this repository using:
+
+`git clone https://github.com/j-tee/fxSeries.git`
+
+> After that navigate to the newly created folder and open it using Intellij or Eclipse IDE:
+
+`cd fxSeries`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
