@@ -54,7 +54,7 @@
 
     Java JDK-17
     Intellij IDE or Eclipse
-    SceneBulder
+    SceneBuilder
 
 ### Setup
 > To run and view this application, you will first have to clone a local version of this repository using:
