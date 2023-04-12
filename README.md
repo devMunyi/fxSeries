@@ -59,7 +59,7 @@
 ### Setup
 > To run and view this application, you will first have to clone a local version of this repository using:
 
-`git clone https://github.com/j-tee/fxSeries.git`
+`git clone https://github.com/devMunyi/fxSeries.git`
 
 > After that navigate to the newly created folder and open it using Intellij or Eclipse IDE:
 
