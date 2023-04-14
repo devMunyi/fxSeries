@@ -6,9 +6,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.fxlearning.App"
-            prefHeight="400.0" prefWidth="600.0" >
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxlearning.AppController">
+   <children>
+      <Slider fx:id="slider" layoutX="230.0" layoutY="125.0" />
+      <TextField fx:id="textField" layoutX="215.0" layoutY="188.0" promptText="Enter value" />
+   </children>
 </AnchorPane>
