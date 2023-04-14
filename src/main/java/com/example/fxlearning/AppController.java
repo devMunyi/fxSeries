@@ -35,4 +35,3 @@ public class AppController implements Initializable {
 
     }
 }
-
