@@ -12,8 +12,12 @@ public class App extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("app.fxml"));
         Scene scene = new Scene(root);
 
-        stage.setTitle("Using FX Bi-directional Binding");
+        stage.setTitle("Using FX Menus");
         stage.setScene(scene);
         stage.show();
+    }
+
+    public static void main(String[] args){
+        launch(args);
     }
 }

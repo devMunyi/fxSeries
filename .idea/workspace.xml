@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a27d2af1-a80a-4bc0-8732-eae3d91a4d8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fxlearning/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fxlearning/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fxlearning/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fxlearning/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/fxlearning/app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/fxlearning/app.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
