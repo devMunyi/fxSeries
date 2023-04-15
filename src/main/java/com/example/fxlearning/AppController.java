@@ -1,20 +1,55 @@
 package com.example.fxlearning;
 
-import javafx.application.Platform;
 import javafx.event.ActionEvent;
-import javafx.fxml.Initializable;
+import javafx.fxml.FXML;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
 
-import java.net.URL;
-import java.util.ResourceBundle;
+public class AppController {
 
-public class AppController implements Initializable {
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
+    @FXML
+    private CheckBox cb1;
 
-    }
+    @FXML
+    private CheckBox cb2;
 
-    public void closeApp(ActionEvent event){
-        Platform.exit();
-        System.exit(0);
+    @FXML
+    private CheckBox cb3;
+
+    @FXML
+    private CheckBox cb4;
+
+    @FXML
+    private Label labelList;
+
+    @FXML
+    private Label labelCount;
+
+    public void handleCheckboxEvent(ActionEvent event){
+        int count = 0;
+        String message = "";
+
+        if(cb1.isSelected()){
+            count++;
+            message += cb1.getText() + "\n";
+        }
+
+        if(cb2.isSelected()){
+            count++;
+            message += cb2.getText() + "\n";
+        }
+
+        if(cb3.isSelected()){
+            count++;
+            message += cb3.getText() + "\n";
+        }
+
+        if(cb4.isSelected()){
+            count++;
+            message += cb4.getText() + "\n";
+        }
+
+        labelList.setText(message);
+        labelCount.setText("Selected items : " + count);
     }
 }
