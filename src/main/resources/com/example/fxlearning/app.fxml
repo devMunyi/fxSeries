@@ -9,11 +9,12 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxlearning.AppController">
    <children>
-      <CheckBox fx:id="cb1" layoutX="95.0" layoutY="101.0" mnemonicParsing="false" onAction="#handleCheckboxEvent" text="Dog" />
-      <CheckBox fx:id="cb2" layoutX="95.0" layoutY="161.0" mnemonicParsing="false" onAction="#handleCheckboxEvent" text="Cow" />
-      <CheckBox fx:id="cb3" layoutX="95.0" layoutY="219.0" mnemonicParsing="false" onAction="#handleCheckboxEvent" text="Cat" />
-      <CheckBox fx:id="cb4" layoutX="95.0" layoutY="277.0" mnemonicParsing="false" onAction="#handleCheckboxEvent" text="Rat" />
-      <Label fx:id="labelCount" layoutX="104.0" layoutY="345.0" prefHeight="15.0" prefWidth="296.0" />
-      <Label fx:id="labelList" layoutX="440.0" layoutY="77.0" prefHeight="214.0" prefWidth="134.0" />
+      <RadioButton fx:id="rb1" layoutX="118.0" layoutY="95.0" mnemonicParsing="false" onAction="#selectRadioBtn" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="myRadioBtnGroup" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rb2" layoutX="118.0" layoutY="150.0" mnemonicParsing="false" onAction="#selectRadioBtn" text="Female" toggleGroup="$myRadioBtnGroup" />
+      <Label fx:id="myLabel" layoutX="282.0" layoutY="228.0" />
    </children>
 </AnchorPane>
