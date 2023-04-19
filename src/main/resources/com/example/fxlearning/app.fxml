@@ -9,12 +9,13 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxlearning.AppController">
    <children>
-      <RadioButton fx:id="rb1" layoutX="118.0" layoutY="95.0" mnemonicParsing="false" onAction="#selectRadioBtn" text="Male">
-         <toggleGroup>
-            <ToggleGroup fx:id="myRadioBtnGroup" />
-         </toggleGroup>
-      </RadioButton>
-      <RadioButton fx:id="rb2" layoutX="118.0" layoutY="150.0" mnemonicParsing="false" onAction="#selectRadioBtn" text="Female" toggleGroup="$myRadioBtnGroup" />
-      <Label fx:id="myLabel" layoutX="282.0" layoutY="228.0" />
+      <TableView fx:id="table" layoutX="124.0" layoutY="25.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="name" prefWidth="75.0" text="name" />
+            <TableColumn fx:id="surname" prefWidth="75.0" text="surname" />
+            <TableColumn fx:id="age" prefWidth="75.0" text="age" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>

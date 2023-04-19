@@ -13,7 +13,7 @@ public class App extends Application {
         Scene scene = new Scene(root);
 
         stage.setScene(scene);
-        stage.setTitle("Using FX Radio Button");
+        stage.setTitle("Using FX Tableview");
         stage.show();
     }
 
