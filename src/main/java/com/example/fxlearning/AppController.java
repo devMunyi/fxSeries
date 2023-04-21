@@ -19,7 +19,7 @@ public class AppController implements Initializable  {
     @FXML private TableColumn<Student, Integer> age;
 
     public ObservableList<Student> list = FXCollections.observableArrayList(
-            new Student(1, "sam", "Munyi", 27),
+            new Student(1, "Sam", "Munyi", 27),
             new Student(2, "John", "Doe", 28),
             new Student(3, "Jane", "Doe", 26)
     );
